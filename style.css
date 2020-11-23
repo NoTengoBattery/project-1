@@ -1,4 +1,29 @@
+@font-face {
+  font-family: 'Roman';
+  src: url('./asset/font/RomanSerif.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Chomsky';
+  src: url('./asset/font/Chomsky.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
+
 body {
-  color: white;
-  background: black;
+  font-family: 'Roman';
+  /* font-size: 40px; */
+}
+
+.space-and-cosmos{
+  font-family: 'Libre Franklin', sans-serif;
+  text-decoration: none;
+  font-size: 14.25px;
+  font-weight: 900;
+  color: black;
+}
+
+.middle-container > h3{
+  font-family: "Chomsky";
+  font-size: 35px;
+  font-weight: 400;
 }
