@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NoTengoBattery/project-1#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1"
+    "gulp-autoprefixer": "^7.0.1",
+    "gulpfile": "^1.0.2"
   }
 }
