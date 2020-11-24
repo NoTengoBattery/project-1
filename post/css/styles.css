@@ -9,21 +9,82 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
-
-html {
+*{
   font-family: 'Roman';
+  margin: 0;
+  padding: 0;
 }
 
-.space-and-cosmos {
+
+/* Navigation Bar */
+
+.navigation-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100vw;
+  background-color: #FFF;
+  top: 0;
+}
+/* left Navigation */
+.left-container{
+  display: flex;
+  align-items: center;
+}
+
+.left-container > *{
+  margin-left: 15px;
+  font-size: 15px !important;
+}
+.search{
+  margin-left: 25px !important;
+  margin-right: 15px;
+} 
+.space-and-cosmos{
+  font-size: 13px !important;
   font-family: 'Libre Franklin', sans-serif;
   text-decoration: none;
-  font-size: 14.25px;
-  font-weight: 900;
+  font-weight: 700;
   color: black;
+
+}
+/* middle Navigation */
+.middle-container > h3 > a{
+  font-family: "Chomsky";
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  color:#000;
 }
 
-.middle-container > h3 {
-  font-family: "Chomsky";
-  font-size: 35px;
-  font-weight: 400;
+
+/* right Navigation */
+.right-container{
+  display: flex;
+  align-items: center;
+  width: 15%;
 }
+.right-container > *{
+  background-color: rgb(86, 123, 149);
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5%;
+  border: none;
+  font-size: 11px;
+}
+
+
+/* Main Body */
+main{
+  margin-top: 60px;
+  
+}
+
+
+
