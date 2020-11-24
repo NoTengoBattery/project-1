@@ -11,14 +11,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
 
 * {
-  font-family: 'Roman';
+  font-family: "Roman",Sans-Serif;
   margin: 0;
   padding: 0;
 }
 
-
 /* Navigation Bar */
-
 .navigation-container {
   display: flex;
   justify-content: space-between;
@@ -26,8 +24,8 @@
   padding: 5px;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
   position: fixed;
-  width: 100vw;
-  background-color: #FFF;
+  width: 100%;
+  background-color: #ffffff;
   top: 0;
 }
 
@@ -53,26 +51,21 @@
   text-decoration: none;
   font-weight: 700;
   color: black;
-
 }
-
 /* middle Navigation */
 .middle-container > h3 > a {
-  font-family: "Chomsky";
+  font-family: "Chomsky",Sans-Serif;
   font-size: 25px;
   font-weight: 400;
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
-
-
 /* right Navigation */
 .right-container {
   display: flex;
   align-items: center;
   width: 15%;
 }
-
 .right-container > * {
   background-color: rgb(86, 123, 149);
   font-weight: 600;
@@ -84,8 +77,6 @@
   border: none;
   font-size: 11px;
 }
-
-
 /* Main Body */
 main {
   margin-top: 100px;
