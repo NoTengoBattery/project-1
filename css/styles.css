@@ -81,19 +81,19 @@
   font-size: 11px;
 }
 
-/* Main Body */
-main {
-  margin-top: 100px;
+header > * {
+  margin: 0 auto;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  font-size: 1.25rem;
 }
 
-/* Main Image */
-.image-container {
-  width: 100%;
+header > h1 {
+  margin-top: 100px;
+}
+
+header > .image-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 975px;
 }
 
 .image-container > img {
@@ -111,9 +111,57 @@ main {
 
 /* Social Midea Icon */
 .social-media-icons {
-  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.article-author > p {
+  margin-bottom: 24px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.media-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  align-self: flex-start;
+  font-size: 0.8125rem;
+}
+
+.icons {
+  align-self: flex-end;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  min-width: 242px;
+}
+
+.icons > * {
+  cursor: pointer;
+}
+
+.ics-media {
+  font-size: 15px !important;
+  background-color: #eee;
+  border: 10px solid #eee;
+  border-radius: 50%;
 }
 
 h2 {
   font-size: 20px;
+}
+
+/* Main Body */
+main {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 1.25rem;
 }
