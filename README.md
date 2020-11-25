@@ -4,7 +4,7 @@
 
 > This is the first project for the week 1.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/screenshot/p1.png)
 
 This is a clone of a New York Times article made from scratch using sematic HTML and CSS3.
 
@@ -16,7 +16,7 @@ This is a clone of a New York Times article made from scratch using sematic HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://notengobattery.github.io/project-1)
 
 
 ## Getting Started
