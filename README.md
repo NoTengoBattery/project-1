@@ -4,7 +4,7 @@
 
 > This is the first project for the week 1.
 
-![screenshot](./assets/screenshot/p1.png)
+![screenshot](assets/screenshot/p1.PNG)
 
 This is a clone of a New York Times article made from scratch using sematic HTML and CSS3.
 
