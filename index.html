@@ -318,6 +318,22 @@
           <i class="fa ics-media">&#xf064;</i>
         </div>
       </div>
+      <form action="/comment" method="post">
+        <p>Enjoyed the article? Leave a comment and join the discussion using the following form.</p>
+        <label for="username">Username</label>
+        <input type="text" name="user-name" id="username" maxlength="20" required><br>
+        <label for="email">Email (will not be shown)</label>
+        <input type="email" name="user-email" id="email" maxlength="20" required><br>
+        <textarea name="comment" placeholder="Type your comment here..." maxlength="250" required></textarea><br>
+        <fieldset>
+          <legend>What is your overall opinion about this article?</legend>
+          <input type="radio" name="overall" value="positive" checked>Positive 😀<br>
+          <input type="radio" name="overall" value="neutral">Neutral 😐<br>
+          <input type="radio" name="overall" value="negative">Negative 🙁<br>
+        </fieldset>
+        <input type="checkbox" name="should-sub" value="yes" checked>I want to subscribe to the newsletter<br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
     </section>
   </div>
   <aside class="more">
