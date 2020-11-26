@@ -436,6 +436,8 @@ form {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  height: 100px;
+  align-content: space-evenly;
 }
 
 .form-user > * {
