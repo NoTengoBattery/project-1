@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #2ecc71, lightpink, lightskyblue);
+  display: flex;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+legend {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: x-large;
+  margin: 15px 0 20px 0;
+  color: #2ecc71;
+}
+
+legend:hover {
+  font-size: xx-large;
+}
+
+.margin {
+  margin-top: 20px;
+}
+
+.form-container {
+  border: 1px solid #2ecc71;
+  border-radius: 25%;
+  background-image: linear-gradient(to top right, #2ecc71, lightpink, lightskyblue);
+  position: relative;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 50%;
+  flex-direction: column;
+  top: 20px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.input-field {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid #3498db;
+  padding: 9px 9px;
+  width: 200px;
+  outline: none;
+  border-radius: 25px;
+  transition: 0.25s;
+  background-color: transparent;
+}
+
+.input-field:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.input-field:invalid {
+  width: 280px;
+  box-shadow: 0 0 5px 1px red;
+}
+
+.submit-button {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #2ecc71;
+  width: 230px;
+  transition: 1s;
+}
+
+.textfield {
+  height: 140px;
+  width: 50%;
+  align-self: center;
+  resize: none;
+  border: 2px solid #3498db;
+  background-color: transparent;
+}
+
+.textfield:focus {
+  height: 150px;
+  width: 70%;
+  align-self: center;
+  resize: none;
+  border: 2px solid #2ecc71;
+  transition: 0.25s;
+  cursor: pointer;
+  border-color: #2ecc71;
+}
