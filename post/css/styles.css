@@ -16,8 +16,22 @@
   padding: 0;
 }
 
-/* Navigation Bar */
+form > * {
+  margin: 3px;
+  padding: 5px;
+}
 
+form > p,
+form > label,
+form > hr {
+  padding: 0;
+}
+
+form > hr {
+  margin: 0 0 30px 0;
+}
+
+/* Navigation Bar */
 .navigation-container {
   display: flex;
   justify-content: space-between;
@@ -410,4 +424,30 @@ footer {
   width: 90%;
   font-family: serif;
   font-size: 1.125rem;
+}
+
+form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-user {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.form-user > * {
+  flex: 1 1 35%;
+}
+
+textarea {
+  height: 60px;
+}
+
+.mood {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

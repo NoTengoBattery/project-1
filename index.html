@@ -319,19 +319,27 @@
         </div>
       </div>
       <form action="/comment" method="post">
-        <p>Enjoyed the article? Leave a comment and join the discussion using the following form.</p>
-        <label for="username">Username</label>
-        <input type="text" name="user-name" id="username" maxlength="20" required><br>
-        <label for="email">Email (will not be shown)</label>
-        <input type="email" name="user-email" id="email" maxlength="20" required><br>
-        <textarea name="comment" placeholder="Type your comment here..." maxlength="250" required></textarea><br>
+        <hr>
+        <p>It looks like you enjoyed the article. Leave a comment and join the discussion using the following form.</p>
+        <div class="form-user">
+          <label for="username">Username</label>
+          <input type="text" name="user-name" id="username" maxlength="20" required>
+          <label for="email">Email (will not be shown)</label>
+          <input type="email" name="user-email" id="email" maxlength="20" required>
+        </div>
+        <textarea name="comment" placeholder="Type your comment here..." maxlength="250" required></textarea>
         <fieldset>
           <legend>What is your overall opinion about this article?</legend>
-          <input type="radio" name="overall" value="positive" checked>Positive 😀<br>
-          <input type="radio" name="overall" value="neutral">Neutral 😐<br>
-          <input type="radio" name="overall" value="negative">Negative 🙁<br>
+          <div class="mood">
+            <label>
+              <input type="radio" name="overall" value="positive" checked>Positive 😀
+            </label><label>
+              <input type="radio" name="overall" value="neutral">Neutral 😐</label><label>
+              <input type="radio" name="overall" value="negative">Negative 🙁</label>
+          </div>
         </fieldset>
-        <input type="checkbox" name="should-sub" value="yes" checked>I want to subscribe to the newsletter<br>
+        <label>
+          <input type="checkbox" name="should-sub" value="yes" checked> I want to subscribe to the newsletter</label>
         <input type="submit" name="submit" value="Submit">
       </form>
     </section>
