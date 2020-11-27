@@ -6,9 +6,8 @@
   <title>Space Ripples Reveal Big Bang’s Smoking Gun</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <link rel="stylesheet" href="post/css/styles.css">
+  <link rel="stylesheet" href="./post/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -23,8 +22,8 @@
       <h3><a href="https://www.nytimes.com/">The New York Times</a></h3>
     </div>
     <div class="right-container">
-      <button class="button">SUBSCRIBE NOW</button>
-      <button class="button">LOG IN</button>
+      <button class="button" type="button">SUBSCRIBE NOW</button>
+      <button class="button" type="button">LOG IN</button>
     </div>
   </nav>
 
@@ -304,29 +303,30 @@
       <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the
         team, “you wind up at inflation.”</p><br>
     </section>
-    <form class="form-container" action="#"method="post">
+    <form class="form-container" action="#" method="post">
       <fieldset>
         <legend>comment</legend><br />
         <label class="margin" for="User_name">Name: </label>  
-        <input class="input-field" type="text" name="User_name" maxlength="20" required><br><br>
+        <input class="input-field" type="text" id="User_name" name="User_name" maxlength="20" required><br><br>
         
         <label for="email">Email: </label>
-        <input class="input-field" type="email" name="email" maxlength="20" required><br><br>
+        <input class="input-field" type="email" id="email" name="email" maxlength="20" required><br><br>
         
         <label for="comment">Comment</label><br />
-        <textarea class="textfield" name="comment" placeholder="Type your comment here…" rows=5 maxlength="250" required></textarea>
+        <textarea class="textfield" id="comment"  name="comment" placeholder="Type your comment here…" rows=5 maxlength="250" required></textarea>
+        <br />
+          <fieldset >
+            <legend style="margin: 0 auto;">What is your overall opinion about this article?</legend>
+              <input type="radio" id="position" name="opinion" value="position" checked>
+              <label for="position">Position</label><br>
+              <input type="radio" id="negative" name="opinion" value="negative">
+              <label for="negative">Negative</label><br>
+              <input type="radio" id="neutral" name="opinion" value="neutral">
+              <label for="neutral">Neutral</label>
+          </fieldset>
         <br />
         <div>
-          <label for="opinion">What is your overall opinion about this article?</label>
-          <select>
-            <option value="positive" selected>Positive</option>
-            <option value="negative">Negative</option>
-            <option value="nentral">Nentral</option>
-          </select>
-        </div>
-        <br />
-        <div>
-          <input type="checkbox" name="subscribe" value="yes" checked>
+          <input id="subscribe" type="checkbox" name="subscribe" value="yes" checked>
           <label for="subscribe"> I want to subscribe to the newsletter</label><br>
         </div>
         
@@ -339,7 +339,7 @@
         headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="#">Order Reprints</a> |<a href="#"> Today’s
           Paper</a> | <a href="#">Subscribe</a></p>
       <div class="social-media-icons-2">
-        <button class="button">Read 615 comments</button>
+        <button class="button" type="button">Read 615 comments</button>
         <div class="media-bar">
           <i class="fa ics-media">&#xf09a;</i>
           <i class="fa ics-media">&#xf099;</i>
@@ -510,13 +510,13 @@
         </a><br />
         <a href="#">
           Art & Design
-        </a><br />
+        </a><br>
         <a href="#">
           Books
-        </a><br />
+        </a><br>
         <a href="#">
           Dance
-        </a><br />
+        </a><br>
         <a href="#">
           Movies
         </a><br />
