@@ -19,12 +19,19 @@
 form > * {
   margin: 3px;
   padding: 5px;
+  font-family: inherit;
+}
+
+legend,
+label {
+  font-family: inherit;
 }
 
 form > p,
 form > label,
 form > hr {
   padding: 0;
+  font-family: inherit;
 }
 
 form > hr {
@@ -51,7 +58,6 @@ header > * {
 }
 
 /* left Navigation */
-
 .left-container {
   display: flex;
   align-items: center;
@@ -108,7 +114,6 @@ header > * {
 }
 
 /* right Navigation */
-
 .right-container {
   display: flex;
   align-items: center;
@@ -151,7 +156,6 @@ header > h1 {
 }
 
 /* Social Midea Icon */
-
 .social-media-icons {
   display: flex;
   flex-direction: column;
@@ -207,7 +211,6 @@ h2 {
 }
 
 /* Main Body */
-
 main,
 .main {
   max-width: 600px;
@@ -222,7 +225,6 @@ main,
 }
 
 /* Card */
-
 .card-images-section {
   display: flex;
   flex-direction: column;
@@ -296,7 +298,6 @@ main,
 }
 
 /* footer */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -430,6 +431,7 @@ form {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  font-family: monospace;
 }
 
 .form-user {
@@ -438,10 +440,12 @@ form {
   padding: 0;
   height: 100px;
   align-content: space-evenly;
+  font-family: inherit;
 }
 
 .form-user > * {
   flex: 1 1 35%;
+  font-family: inherit;
 }
 
 textarea {
@@ -452,4 +456,5 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: inherit;
 }
